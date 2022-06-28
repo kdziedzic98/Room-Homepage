@@ -133,7 +133,7 @@ body {
 }
 
 .container__secondRow .firstImage {
-  background: url(/images/image-about-dark.jpg);
+  background: url("/images/image-about-dark.jpg");
   width: 420px;
   height: 256px;
 }
