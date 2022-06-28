@@ -15,7 +15,7 @@ body {
 }
 
 .container__firstRow .imageContainer {
-  background: url("/images/desktop-image-hero-1.jpg");
+  background: url("./images/desktop-image-hero-1.jpg");
   width: 840px;
   height: 534px;
 }
@@ -133,7 +133,7 @@ body {
 }
 
 .container__secondRow .firstImage {
-  background: url("/images/image-about-dark.jpg");
+  background: url("./images/image-about-dark.jpg");
   width: 420px;
   height: 256px;
 }
@@ -162,7 +162,7 @@ body {
 }
 
 .container__secondRow .secondImage {
-  background: url("/images/image-about-light.jpg");
+  background: url("./images/image-about-light.jpg");
   width: 420px;
   height: 256px;
 }
