@@ -17,14 +17,14 @@ function changeSlide() {
   }
 
   if (number === 2) {
-    imageContainer.style.background = `url(/images/desktop-image-hero-${number}.jpg)`;
+    imageContainer.style.background = `url(./images/desktop-image-hero-${number}.jpg)`;
     contentHeadline.innerHTML = `We are available all across the globe`;
     contentText.innerHTML = `With stores all over the world, it's easy for you to
     find furniture for your home or place of business. Locally, we’re in most
     major cities throughout the country. Find the branch nearest you using our
     store locator. Any questions? Don't hesitate to contact us today.`;
   } else if (number === 3) {
-    imageContainer.style.background = `url(/images/desktop-image-hero-${number}.jpg)`;
+    imageContainer.style.background = `url(./images/desktop-image-hero-${number}.jpg)`;
     contentHeadline.innerHTML = `Manufactured with the best materials`;
     contentText.innerHTML = `Our modern furniture store provide a
     high level of quality. Our company has invested in advanced technology to
@@ -33,7 +33,7 @@ function changeSlide() {
     customers want for their home and office.`;
   } else {
     number = 1;
-    imageContainer.style.background = `url(/images/desktop-image-hero-${number}.jpg)`;
+    imageContainer.style.background = `url(./images/desktop-image-hero-${number}.jpg)`;
     contentHeadline.innerHTML = `Discover innovative ways to decorate`;
     contentText.innerHTML = `We provide unmatched quality, comfort, and style for property
     owners across the country. Our experts combine form and function
