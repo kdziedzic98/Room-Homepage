@@ -1,0 +1,223 @@
+$Dark-Gray: hsl(0, 0%, 63%);
+$Black: hsl(0, 0%, 0%);
+$White: hsl(0, 0%, 100%);
+$Very-Dark-Gray: hsl(0, 0%, 27%);
+
+$Mobile: 375px;
+$Desktop: 1440px;
+
+body {
+  font-family: "League Spartan";
+  font-size: 12px;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: $Desktop;
+
+  &__firstRow {
+    display: flex;
+    .imageContainer {
+      background: url("/images/desktop-image-hero-1.jpg");
+      width: 840px;
+      height: 534px;
+
+      .navPanel {
+        padding: 40px 60px;
+        display: flex;
+
+        .logo {
+          height: 12px;
+          padding-top: 15px;
+        }
+
+        ul {
+          color: $White;
+          font-weight: 500;
+          font-size: 15px;
+          display: flex;
+          flex-direction: row;
+          list-style-type: none;
+          gap: 10px;
+
+          li {
+            gap: 10px;
+            color: $White;
+
+            &:hover {
+              border-bottom: 2px solid $White;
+              padding-bottom: 5px;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+    .description {
+      display: flex;
+      flex-direction: column;
+      width: 600px;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        padding-left: 50px;
+
+        &__headline {
+          font-size: 42px;
+        }
+
+        &__text {
+          font-weight: 500;
+          line-height: 20px;
+          font-size: 14px;
+          margin: 0;
+          padding-bottom: 20px;
+          width: 370px;
+          color: $Dark-Gray;
+        }
+
+        &__link {
+          display: flex;
+          gap: 25px;
+
+          .link {
+            font-weight: 700;
+            text-decoration: none;
+            color: $Black;
+            font-size: 14px;
+            letter-spacing: 10px;
+
+            &:hover {
+              color: $Dark-Gray;
+            }
+          }
+        }
+      }
+
+      .slider {
+        display: flex;
+        padding-top: 8px;
+        position: relative;
+        top: 90px;
+        right: 235px;
+
+        .sliderOne {
+          background-color: $Black;
+          padding: 20px 25px;
+          color: $Dark-Gray;
+
+          &:hover {
+            background-color: $Very-Dark-Gray;
+            cursor: pointer;
+          }
+        }
+        .sliderTwo {
+          background-color: $Black;
+          padding: 20px 26px;
+          color: $Dark-Gray;
+
+          &:hover {
+            background-color: $Very-Dark-Gray;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  &__secondRow {
+    display: flex;
+    .firstImage {
+      background: url(/images/image-about-dark.jpg);
+      width: 420px;
+      height: 256px;
+    }
+    .description2 {
+      display: flex;
+      flex-direction: column;
+      width: 550px;
+      line-height: 45px;
+      justify-content: center;
+
+      &__headline {
+        padding: 0 55px;
+        margin: 0;
+        font-size: 16px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+      }
+      &__text {
+        font-size: 14px;
+        padding: 0 55px;
+        line-height: 20px;
+        color: $Dark-Gray;
+      }
+    }
+    .secondImage {
+      background: url("/images/image-about-light.jpg");
+      width: 420px;
+      height: 256px;
+    }
+  }
+}
+
+// @media (max-width: 600px) {
+//   .container {
+//     display: flex;
+//     flex-direction: column;
+//     width: 100vw;
+//     justify-content: center;
+//     align-items: center;
+
+//     &__firstRow {
+//       display: flex;
+//       flex-direction: column;
+
+//       .imageContainer {
+//         width: 600px;
+//       }
+
+//       .description {
+//         width: 100vw;
+//         padding: 0;
+
+//         .content {
+//           width: 100vw;
+//           padding-left: 140px;
+
+//           &__headline {
+//             width: 400px;
+//           }
+//         }
+//         .slider {
+//           display: flex;
+//           padding-top: 8px;
+//           position: fixed;
+//           top: 400px;
+//           left: 380px;
+//         }
+//       }
+//     }
+//     &__secondRow {
+//       display: flex;
+//       flex-direction: column;
+
+//       .firstImage {
+//         width: 100vw;
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//       }
+//       .secondImage {
+//         width: 100vw;
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//       }
+//     }
+//   }
+// }
