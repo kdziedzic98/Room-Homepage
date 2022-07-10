@@ -106,24 +106,24 @@ body {
   right: 235px;
 }
 
-.container__firstRow .description .slider .sliderOne {
+.container__firstRow .description .slider .sliderLeft {
   background-color: black;
   padding: 20px 25px;
   color: #a1a1a1;
 }
 
-.container__firstRow .description .slider .sliderOne:hover {
+.container__firstRow .description .slider .sliderLeft:hover {
   background-color: #454545;
   cursor: pointer;
 }
 
-.container__firstRow .description .slider .sliderTwo {
+.container__firstRow .description .slider .sliderRight {
   background-color: black;
   padding: 20px 26px;
   color: #a1a1a1;
 }
 
-.container__firstRow .description .slider .sliderTwo:hover {
+.container__firstRow .description .slider .sliderRight:hover {
   background-color: #454545;
   cursor: pointer;
 }
